@@ -53,11 +53,7 @@ from io import BytesIO
 # =============================================================================
 # Configuration
 # =============================================================================
-DB_PATH = (
-    "/Users/craignyabvure/Desktop/AGI BOM /Final Docs/"
-    "Operational_Time_Totals_By_Top_Material_SML_Updated.csv"
-)
-
+DB_PATH = "Operational_Time_Totals_By_Top_Material_SML_Updated.csv"
 # =============================================================================
 # BOM Processing Logic
 # =============================================================================
