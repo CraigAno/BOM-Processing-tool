@@ -209,10 +209,22 @@ else:
 # =============================================================================
 st.markdown(
     """
-    <hr>
-    <div style="text-align:center; color:gray; font-size:0.9em;">
-        Contact Westeel ME Dept for questions and support.<br>
-        © Westeel 2026
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #f1f1f1;
+        color: #333;
+        text-align: center;
+        padding: 20px;
+        font-size: 15px;
+        z-index: 9999;
+    }
+    </style>
+    <div class="footer">
+        © 2026 Westeel M.E. | Contact Westeel M.E.Dept for questions or support.
     </div>
     """,
     unsafe_allow_html=True
